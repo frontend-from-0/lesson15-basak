@@ -80,6 +80,8 @@ console.log('randomNumber', randomNumber);
 
 // 12. Round the number 3.7 down using Math.floor and 3.2 up using Math.ceil, log both.
 // CODE HERE
+const roundDown = Math.floor(3.7);
+console.log(3.7, roundDown)
 
 // 13. Declare a boolean variable isStudent = true. Log it.
 // CODE HERE
