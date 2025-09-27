@@ -162,6 +162,10 @@ console.log('Ex. 22.', counter22);
 
 // 23. Declare initialTemperature=20. Increase it by 5 and log the result.
 // CODE HERE
+let initializeTemperature=20;
+initializeTemperature +=5;
+console.log('Ex. 23.', initializeTemperature);
+
 
 // 24. Declare numberEx9=6. Increment it using the prefix ++ operator and log both the variable and the incremented value.
 // CODE HERE
