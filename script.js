@@ -98,12 +98,26 @@ console.log('Ex. 14. ' , counter);
 
 // 15. Initialize points = 10, add 5 to it using points += 5, then log points.
 // CODE HERE
+let initializePoints = 10;
+initializePoints += 5;
+console.log('Ex. 15. ', initializePoints);
 
 // 16. Declare name="Alice", age=30, city="Paris". Log "Alice (30) lives in Paris" using template literals.
 // CODE HERE
+const name = 'Alice';
+const age = 30;
+const city = 'Paris';
+console.log('Ex. 16. ', `${name} (${age}) lives in ${city}`);
 
 // 17. Declare variables x=5, y=10, z=15. Log their total sum.
 // CODE HERE
+
+const x1 = 5; /* changed x  to x1 since it was already declared above.*/
+const y = 10;
+const z = 15;
+const totalSum = x1 + y + z;
+console.log("Ex. 17. ", totalSum);
+
 
 // 18. Declare dividend=10 and divisor=3. Log the quotient (divisionResult) and difference (differenceResult).
 // CODE HERE
