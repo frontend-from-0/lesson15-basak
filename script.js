@@ -171,12 +171,16 @@ console.log('Ex. 23.', initializeTemperature);
 // CODE HERE
 
 let numberEx9=6;
-let incrementedValue=++numberEx9;
-console.log('Ex. 24.', numberEx9, incrementedValue);
+let incrementedValuePrefix=++numberEx9;
+console.log('Ex. 24.', numberEx9, incrementedValuePrefix);
 
 // 25. Declare numberEx10=8. Increment it using the postfix ++ operator and log both the original variable and the incremented value.
 // CODE HERE
 
+let numberEx10=8;
+let incrementedValuePostfix=numberEx10++;
+console.log('Ex. 25.', numberEx10, incrementedValuePostfix);
+let incre
 // 26. Declare numberEx11=-3. Increment it by 1 using prefix ++, then multiply the result by 2 and log the final value.
 // CODE HERE
 
