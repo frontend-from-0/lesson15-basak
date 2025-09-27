@@ -149,6 +149,16 @@ console.log('Ex. 21', Math.PI);
 
 // 22. Declare counter=0. Increment it using three different methods (e.g., counter++, counter+=1, counter=counter+1) and log the result each time.
 // CODE HERE
+let counter22=0;
+
+counter22++;
+console.log('Ex. 22.', counter22);
+
+counter22 +=1;
+console.log('Ex. 22.', counter22);
+
+counter22 = counter22 + 1;
+console.log('Ex. 22.', counter22);
 
 // 23. Declare initialTemperature=20. Increase it by 5 and log the result.
 // CODE HERE
