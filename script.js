@@ -191,3 +191,9 @@ console.log('Ex. 26.', finalValue);
 
 // 27. Declare a=2 and b=3. Increment a using the prefix ++ operator, then add b to the result and log it.
 // CODE HERE
+
+let a2=2;
+let b2=3;
+let incrementedA=++a2;
+let sumAB=incrementedA+b2;
+console.log('Ex. 27.', sumAB)
