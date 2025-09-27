@@ -180,9 +180,14 @@ console.log('Ex. 24.', numberEx9, incrementedValuePrefix);
 let numberEx10=8;
 let incrementedValuePostfix=numberEx10++;
 console.log('Ex. 25.', numberEx10, incrementedValuePostfix);
-let incre
+
 // 26. Declare numberEx11=-3. Increment it by 1 using prefix ++, then multiply the result by 2 and log the final value.
 // CODE HERE
+
+let numberEx11=-3;
+let incrementedValuePrefix2=++numberEx11;
+let finalValue=incrementedValuePrefix2*2;
+console.log('Ex. 26.', finalValue);
 
 // 27. Declare a=2 and b=3. Increment a using the prefix ++ operator, then add b to the result and log it.
 // CODE HERE
