@@ -30,7 +30,7 @@ const result = [a - b, a * b, a / b];
 console.log('Ex. 3.', result);
 
 // 4. Use template literals to log: "My name is (userName). I like JS."
-console.log(`My name is ${userName}. I like JS.`);
+console.log('Ex. 4. ',`My name is ${userName}. I like JS.`);
 
 // 5. Declare a string password = "securePass". Log the length of password.
 // CODE HERE
@@ -49,42 +49,44 @@ console.log('Ex.7.', `${firstWord} ${secondWord}`);
 // 8. Check the type of a variable, e.g., let x = 42. Log the type using typeof.
 // CODE HERE
 let x = 42;
-console.log(typeof x);
+console.log('Ex. 8. ', typeof x);
 
 x = 'Hello World';
-console.log(typeof x);
+console.log('Ex. 8. ', typeof x);
 
 x = ['Hello World'];
-console.log(typeof x);
+console.log('Ex. 8. ', typeof x);
 
 // 9. Convert the number 100 to a string and log the result.
 // CODE HERE
 const num = 100;
 const string = num.toString();
 const string21321 = num + '';
-console.log(typeof string, num, string, string21321);
+console.log('Ex. 9. ', typeof string, num, string, string21321);
 
 // 10. Convert the string "50" to a number and log its type to confirm the conversion.
 // CODE HERE
 
 const str = "10";
 const number = parseInt(str, 10);
-console.log(typeof str, str, typeof number, number);
+console.log('Ex. 10. ', typeof str, str, typeof number, number);
 
 // 11. Generate a random integer between 50 and 60 and log it.
 // CODE HERE
 const min = 50;
 const max = 60;
 const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-console.log('randomNumber', randomNumber);
+console.log('Ex. 11. ', randomNumber);
 
 // 12. Round the number 3.7 down using Math.floor and 3.2 up using Math.ceil, log both.
 // CODE HERE
 const roundDown = Math.floor(3.7);
-console.log(3.7, roundDown)
+const roundUp = Math.ceil(3.2);
+console.log('Ex. 12. ', roundDown, roundUp);
 
 // 13. Declare a boolean variable isStudent = true. Log it.
 // CODE HERE
+
 
 // 14. Initialize counter = 0, then increment it by 1 using counter++ and log it.
 // CODE HERE
