@@ -131,6 +131,11 @@ console.log("Ex. 18. ", divisionResult, differenceResult);
 // 19. Declare firstName and lastName. Create fullName by concatenating them with a space and log it.
 // CODE HERE
 
+const firstName ='Basak';
+const lastName= 'Albeyoglu';
+const fullName = firstName + ' ' + lastName;
+console.log('Ex. 19. ', fullName);
+
 // 20. Declare firstFactor=7 and secondFactor=2. Log the product.
 // CODE HERE
 
