@@ -35,16 +35,16 @@ console.log('Ex. 4. ',`My name is ${userName}. I like JS.`);
 // 5. Declare a string password = "securePass". Log the length of password.
 // CODE HERE
 const password = 'uppercase between type';
-console.log('Ex.5.', 'The length of the password is ', password.length);
+console.log('Ex. 5.', 'The length of the password is ', password.length);
 // 6. Convert the string "hello world" to uppercase and log it.
 // CODE HERE
-console.log('Ex.6.', 'hello world'.toUpperCase());
+console.log('Ex. 6.', 'hello world'.toUpperCase());
 
 // 7. Concatenate "Hello" and "World" with a space in between and log the result.
 // CODE HERE
 const firstWord = 'Hello';
 const secondWord = 'World';
-console.log('Ex.7.', `${firstWord} ${secondWord}`);
+console.log('Ex. 7.', `${firstWord} ${secondWord}`);
 
 // 8. Check the type of a variable, e.g., let x = 42. Log the type using typeof.
 // CODE HERE
@@ -91,6 +91,9 @@ console.log('Ex. 13. ', isStudent);
 
 // 14. Initialize counter = 0, then increment it by 1 using counter++ and log it.
 // CODE HERE
+let counter = 0;
+counter++;
+console.log('Ex. 14. ' , counter);
 
 
 // 15. Initialize points = 10, add 5 to it using points += 5, then log points.
