@@ -86,10 +86,12 @@ console.log('Ex. 12. ', roundDown, roundUp);
 
 // 13. Declare a boolean variable isStudent = true. Log it.
 // CODE HERE
-
+var isStudent = true;
+console.log('Ex. 13. ', isStudent);
 
 // 14. Initialize counter = 0, then increment it by 1 using counter++ and log it.
 // CODE HERE
+
 
 // 15. Initialize points = 10, add 5 to it using points += 5, then log points.
 // CODE HERE
