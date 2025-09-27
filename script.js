@@ -145,6 +145,7 @@ console.log ('Ex. 20. ', product);
 
 // 21. Log the value of Math.PI.
 // CODE HERE
+console.log('Ex. 21', Math.PI);
 
 // 22. Declare counter=0. Increment it using three different methods (e.g., counter++, counter+=1, counter=counter+1) and log the result each time.
 // CODE HERE
