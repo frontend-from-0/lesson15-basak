@@ -170,6 +170,10 @@ console.log('Ex. 23.', initializeTemperature);
 // 24. Declare numberEx9=6. Increment it using the prefix ++ operator and log both the variable and the incremented value.
 // CODE HERE
 
+let numberEx9=6;
+let incrementedValue=++numberEx9;
+console.log('Ex. 24.', numberEx9, incrementedValue);
+
 // 25. Declare numberEx10=8. Increment it using the postfix ++ operator and log both the original variable and the incremented value.
 // CODE HERE
 
