@@ -19,8 +19,8 @@ console.log('---------------------------------');
 // CODE HERE
 const userName = 'Elif';
 const userAge = 24;
-console.log('Hello! I am ' + userName + ' and I am ' + userAge + ' years old.');
-console.log(`Hello! I am ${userName} and I am ${userAge} years old.`);
+console.log('Ex. 2. ','Hello! I am ' + userName + ' and I am ' + userAge + ' years old.');
+console.log('Ex. 2. ',`Hello! I am ${userName} and I am ${userAge} years old.`);
 
 // 3. Declare variables a=10 and b=4. Log the result of a-b, a*b, and a/b.
 // CODE HERE
