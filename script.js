@@ -138,6 +138,10 @@ console.log('Ex. 19. ', fullName);
 
 // 20. Declare firstFactor=7 and secondFactor=2. Log the product.
 // CODE HERE
+const firstFactor = 7;
+const secondFactor =2;
+const product = firstFactor * secondFactor;
+console.log ('Ex. 20. ', product);
 
 // 21. Log the value of Math.PI.
 // CODE HERE
