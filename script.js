@@ -122,6 +122,12 @@ console.log("Ex. 17. ", totalSum);
 // 18. Declare dividend=10 and divisor=3. Log the quotient (divisionResult) and difference (differenceResult).
 // CODE HERE
 
+const dividend = 10;
+const divisor = 3;
+const divisionResult = dividend / divisor;
+const differenceResult = dividend - divisor;
+console.log("Ex. 18. ", divisionResult, differenceResult);
+
 // 19. Declare firstName and lastName. Create fullName by concatenating them with a space and log it.
 // CODE HERE
 
